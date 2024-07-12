@@ -97,6 +97,7 @@ public class CRUDOperation2 {
                     "\"key\":\"" + API_KEY + "\"\n" +
                     "}");
             test.info("Sending PUT request to update the address");
+            System.out.println();
 
             Response response = rs.put();
             ValidatableResponse validatableResponse = response.then();
